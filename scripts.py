@@ -25,7 +25,7 @@ import re
 options = Options()
 options.add_argument("--disable-infobars") 
 options.add_argument("--window-size=1920x1080")
-# options.add_argument("--headless")
+# options.add_argument("--headless") Расскоментить для вывода браузеров и отслеживания процессов листания
 
 lock = Lock()
 
